@@ -5,7 +5,6 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 app = Flask(__name__)
 app.secret_key = 'supersecretkey'
-
 # Sample user credentials
 users = {
     'vignesh': 'k1',
